@@ -1,0 +1,1 @@
+docker run -v $(pwd):/app --name html-pdf -p 3000:3000 html-pdf

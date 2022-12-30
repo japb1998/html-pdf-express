@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <style>
+        th {
+    border-bottom:1px solid black;
+    }
+    img {
+        width: 100vw;
+        position: absolute;
+        opacity: .5;
+    }
+    .hero {
+        position: relative;
+        height: 30vh;
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="data:image/png;base64,{image1}" alt="">
+    </div>
+    <h1>{title}</h1>
+    <table style="border: solid 1px black; width: 100%;">
+        <tbody>
+        <tr style="position: relative;">
+            <th>Employee ID</th>
+            <th> Employee Name</th>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td> Example </td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
